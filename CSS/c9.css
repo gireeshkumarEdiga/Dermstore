@@ -1,0 +1,357 @@
+.head {
+    width: 100%;
+    height: 30px;
+    background-color: whitesmoke;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+.head1 {
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    height: 150px;
+    padding: 2% 0%;
+    margin: 0% 2%;
+}
+.head1 > img {
+    width:20%;
+}
+.search {
+    width :50%;
+    margin: 2% 2%;
+}
+.search > form {
+    display: flex;
+    flex-direction: row;
+}
+.glyphicon-search {
+    font-size: 20px;
+}
+.btn-default {
+    background:orange;
+    widows: 100px;
+    padding: 12.5px;
+}
+.form-control {
+    padding: 25px;
+    font-size: 20px;
+}
+.s1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% 0% 7%;
+    padding: 2% 0%;
+}
+/*.head1 > .s1 > i {
+    padding: 3% 2%;
+}
+.head1 > .s2 > i {
+    padding: 3% 2%;
+}*/
+.head2 {
+    display: flex;
+    flex-direction: row;
+    widows: 100%;
+}
+.head2 > a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+} 
+/*.head2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    padding: 8%;
+    padding-left: 15%;
+    border-bottom: 1px solid #babbbd;
+  }
+  
+  .head2 > a {
+    margin-top: 20px;
+    color: #6a6c6e;
+    -webkit-transition: .4s all ease-in-out;
+    transition: .4s all ease-in-out;
+    text-decoration: none;
+  }
+  
+  .head2 > a:hover {
+    color: #232424;
+  }*/
+
+.head3 {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.head3 > div {
+    margin: 0% 25%;
+    display: flex;
+    flex-direction: row;
+}
+.head3 > div > a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+.head4 {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}
+.head4 > div {
+    padding: 1% 30%;
+    font-size: 15px;
+}
+.page1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 1%;
+    padding: 2% 0%;
+    width: 98%;
+}
+.page1 > a {
+    text-decoration: none;
+    color: black;
+}
+.page1 > div {
+    padding: 0% 0.5%;
+}
+.page2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-image: url("https://static.thcdn.com/images/xlarge/webp/widgets/208-us/34/original-beautyfix-september-lp-banner-092534.png");
+    height: 700px;
+}
+.page2 > .side1 {
+    display: flex;
+    flex-direction: column;
+    widows: 40%;
+    margin: 0% 2% 0% 58%;
+    text-align: center;
+    padding: 20% 0%;
+}
+#h {
+    font-size: 35px;
+}
+.page2 > .side1 > button {
+    width: 40%;
+    margin: 0% 25%;
+    background-color: black;
+    color: white;
+    padding: 1% 0%;
+}
+.page3 {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 2% 2%;
+}
+.page3 > .side1 {
+    text-align: center;
+    font-size: 20px;
+}
+.page3 > .side2 {
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin: 0% 2%;
+}
+.page3 > .side2 > div {
+    width: 29%;
+    margin: 0% 2%;
+    text-align: center;
+}
+.page4{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 2% 2%;
+}
+.page4 > .step1 {
+    text-align: center;
+}
+.page4 > .step2 {
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin: 2% 2%;
+}
+.page4 > .step2 > .side1 {
+    width: 29%;
+    margin: 0% 2%;
+    text-align: center;
+}
+.page4 > .step2 > .side1 > button {
+    padding: 1% 10%;
+}
+.page5 {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 0% 2%;
+}
+.page5 > .step1 {
+    text-align: center;
+}
+.page5 > .step2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 2%;
+}
+.page6 {
+    display: flex;
+    flex-direction: row;
+}
+.page6 {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 2%;
+    width:96%;
+}
+.page6 > .side1 {
+    width: 90%;
+    margin: 0% 5%;
+    
+}
+.page6 > .side2{
+    display: flex;
+    flex-direction: column;
+    widows: 90%;
+    margin:0% 5%;
+    text-align: center;
+    padding: 3% 0%;
+}
+.page6 > .side2 > button {
+    widows: 60%;
+    margin: 0% 20%;
+    background-color: black;
+    color: white;
+}
+.page8 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.page8 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin: 2% 4%;
+}
+.page8 > .side2 {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin: 2% 4%;
+}
+.page8 > .side2 > div > a {
+    padding: 0% 3%;
+}
+.search > form {
+    display: flex;
+}
+.page8 > .side1 > button {
+    background-color: black;
+    color: white;
+    margin: 2% 0%;
+    width: 30%;
+    padding: 2%;
+}
+.page8 > .side2 {
+    display: flex;
+    flex-direction: column;
+
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.page9 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.page9 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 0% 2%;
+}
+.page9 > .side1 > .step1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0% 3%;
+} 
+.page9 > .side1 > .step1 > div {
+    padding: 2% 0%;
+}
+.page9 > .side2 {
+    display: flex;
+    flex-direction: row;
+    width: 46%;
+    margin: 0% 2%;
+}
+.page9 > .side2 > .step1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0% 1%;
+} 
+.page9 > .side2 > .step1 > div {
+    padding: 2% 0%;
+}
+.page9 > .side2 > .step2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0% 1%;
+} 
+.page9 > .side2 > .step2 > div {
+    padding: 2% 0%;
+}
+.page9 > .side2 > .step3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0% 1%;
+} 
+.page9 > .side2 > .step3 > div {
+    padding: 2% 0%;
+}
+#h {
+    padding: 10% 0%;
+}
+.page10 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.page10 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    margin: 0% 3%;
+}
+.page10 > .side2 {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    margin: 0% 3%;
+}

@@ -1,0 +1,533 @@
+.head {
+    width: 100%;
+    height: 30px;
+    background-color: whitesmoke;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+/*.s1 > .menu {
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height: 200px;
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    cursor: pointer;
+}*/
+.head1 {
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    height: 150px;
+    padding: 2% 0%;
+    margin: 0% 2%;
+}
+.head1 > img {
+    width:20%;
+}
+.search {
+    width :50%;
+    margin: 2% 2%;
+}
+.search > form {
+    display: flex;
+    flex-direction: row;
+}
+.glyphicon-search {
+    font-size: 20px;
+}
+.btn-default {
+    background:orange;
+    widows: 100px;
+    padding: 12.5px;
+}
+.form-control {
+    padding: 25px;
+    font-size: 20px;
+}
+.s1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% 0% 7%;
+    padding: 2% 0%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content > a > button {
+    width:150px;
+    text-align: center;
+}
+
+
+.s2 {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0%;
+    margin-left: 1%;
+}
+
+/*.head1 > .s1 > i {
+    padding: 3% 2%;
+}
+.head1 > .s2 > i {
+    padding: 3% 2%;
+}*/
+.head2 {
+    display: flex;
+    flex-direction: row;
+    widows: 96%;
+    margin: 0% 2%;
+}
+.head2 > a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+/*.head2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    padding: 8%;
+    padding-left: 15%;
+    border-bottom: 1px solid #babbbd;
+  }
+  
+  .head2 > a {
+    margin-top: 20px;
+    color: #6a6c6e;
+    -webkit-transition: .4s all ease-in-out;
+    transition: .4s all ease-in-out;
+    text-decoration: none;
+  }
+  
+  .head2 > a:hover {
+    color: #232424;
+  }*/
+.head2 > .step-step {
+    position: relative;
+    display: inline-block;
+    padding: 0% 1%;
+}
+.head2 > .step-step > .side-side {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 90%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.side-side  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.side-side  a:hover {
+    background-color: #f1f1f1;
+}
+.step-step:hover .side-side {
+    display: block;
+}
+.head3 {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.head3 > div {
+    margin: 0% 25%;
+    display: flex;
+    flex-direction: row;
+}
+.head3 > div > a { 
+    text-decoration: none;
+    color: black;
+}
+.head3 > div > a {
+    padding: 10px 10px;
+}
+.head4 {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}
+.head4 > div {
+    padding: 1% 30%;
+    font-size: 15px;
+}
+.page1 {
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://static.thcdn.com/images/xlarge/webp/widgets/208-us/16/BestSellers_9.3_Banner_EDIT-021916.jpg);
+    border: 2px solid black;
+    width: 100%;
+}
+/*.page1 > div {
+    display: flex;
+    flex-direction: column;
+}*/
+.page1 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    margin: 5% 2% 3% 60%;
+}
+#a1 {
+    font-size: 80px;
+}
+#a2 {
+    font-size: 80px;
+    font-weight: 100;
+}
+#a3 {
+    font-size: 18px;
+}
+#a4 {
+    margin: 3% 0%;
+}
+#a4 > button {
+    background-color: black;
+    color: white;
+    padding: 2% 5%;
+}
+.page2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.page2 > .step1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 4% 0%;
+}
+.page2 > .step2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+.page2 > .step2 > div {
+    border: 2px solid black;
+    margin: 3% 8%;
+    padding: 3% 0%;
+    text-align: center;
+}
+.page3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2% 0%;
+}
+.page3 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 0% 2%;
+}
+.page3 > .side2 {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 0% 2%;
+}
+.page3 > .side1 > .fur1 {
+    display: flex;
+    flex-direction: column ;
+}
+.page3 > .side2 > .fur1 {
+    display: flex;
+    flex-direction: column ;
+}
+.page5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.page5 > .step1 {
+    text-align: center;
+    font-size: 25px;
+}
+.page5 > .step2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2% 0%;
+} 
+.page5 > .step2 > img {
+    width: 14%;
+    margin: 0% 1%;
+    height: 50px;
+}
+.page8 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.page8 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin: 2% 4%;
+}
+.page8 > .side2 {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin: 2% 4%;
+}
+.page8 > .side2 > div > a {
+    padding: 0% 3%;
+}
+.search > form {
+    display: flex;
+}
+.page8 > .side1 > button {
+    background-color: black;
+    color: white;
+    margin: 2% 0%;
+    width: 30%;
+    padding: 2%;
+}
+.page8 > .side2 {
+    display: flex;
+    flex-direction: column;
+
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.page9 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.page9 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 0% 2%;
+}
+.page9 > .side1 > .step1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0% 3%;
+} 
+.page9 > .side1 > .step1 > div {
+    padding: 2% 0%;
+}
+.page9 > .side2 {
+    display: flex;
+    flex-direction: row;
+    width: 46%;
+    margin: 0% 2%;
+}
+.page9 > .side2 > .step1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0% 1%;
+} 
+.page9 > .side2 > .step1 > div {
+    padding: 2% 0%;
+}
+.page9 > .side2 > .step2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0% 1%;
+} 
+.page9 > .side2 > .step2 > div {
+    padding: 2% 0%;
+}
+.page9 > .side2 > .step3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0% 1%;
+} 
+.page9 > .side2 > .step3 > div {
+    padding: 2% 0%;
+}
+#h {
+    padding: 10% 0%;
+}
+.page10 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.page10 > .side1 {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    margin: 0% 3%;
+}
+.page10 > .side2 {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    margin: 0% 3%;
+}
+.page4 {
+    display: flex;
+    flex-direction: column;
+}
+.page4 > .step1 {
+    text-align: center;
+    font-size: 27px;
+}
+.page4 > .step2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+}
+.page4 > .step2 > .side {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    margin: 2% 2%;
+    text-align: center;
+}
+.page4 > .step2 > .side >  button {
+    background-color: black;
+    color: white;
+}
+/*.page4 > .step2 > :nth-child(2):hover{
+    background-image: url(https://static.thcdn.com/images/small/webp//productimg/original/11370303-1514871771637066.jpg);
+}*/
+/*.page4 > .step2 > .side > img:hover {
+    width: 22%;
+}*/
+/*.page4 > .step2 > .side > .sideby {
+    width: 100%;
+    height: 300px;
+}*/
+.page11 {
+    display: flex;
+    flex-direction: column;
+    width:96%;
+    margin: 2% 2%;
+}
+.page11 > .step1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.page11 > .step2 {
+    display: flex;
+    flex-direction: row;
+    width:98%;
+    margin: 0% 1%;
+} 
+.page11 > .step2 > img {
+    width: 50%;
+}
+.page11 > .step2 > .side {
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.page11 > .step2 > .side > .sides {
+    width:100%;
+    margin: 0% 2%;
+    text-align: center;
+}
+.page11 > .step2 > .side > .sides > button {
+    background-color: black;
+    color: white;
+}
+.page6 {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2%;
+    width:96%;
+}
+.page6 > .step1 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 2%;
+}
+.page6 > .step2 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width:100%;
+}
+.page6 > .step2 > .side {
+    display: flex;
+    flex-direction: column;
+    width:23%;
+    margin: 0% 1%;
+    text-align: center;
+}
+.page6 > .step2 > .side > button {
+    background-color: black;
+    color : white;
+    margin-top: 25%;
+    padding: 2% 0%;
+}
+.page7 {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2%;
+    width:96%;
+}
+.page7 > .step1 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 2%;
+}
+.page7 > .step2 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width:100%;
+}
+.page7 > .step2 > .side {
+    display: flex;
+    flex-direction: column;
+    width:23%;
+    margin: 0% 1%;
+    text-align: center;
+}
+.page7 > .step2 > .side > p {
+    padding-top: 8%;
+}

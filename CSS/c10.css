@@ -1,0 +1,10 @@
+.page1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin:0% 5%;
+}
+.page1 > h4 {
+    width: 21%;
+    padding: 0% 2%;
+}
